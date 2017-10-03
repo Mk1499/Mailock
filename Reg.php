@@ -25,6 +25,9 @@ include("connect.php") ;
 <br><br> 
 <input type="password" name = "pass2" >
 <br>
+
+<p> This Questions will help you to restore your password , so please chose Questions no one other you have its Answer </p>
+<br>
 <label> Enter First Security question </label> 
 <br><br>
 <input type="text" name = "sq1" placeholder="Security Question 1"> 
