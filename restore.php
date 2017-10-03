@@ -56,7 +56,13 @@ if ($row['ans1']==$ans1 and $row['ans2']==$ans2){
 $row=$result->fetch($conn::FETCH_ASSOC) ; 
  
  echo " <p>Your Password is : ".openssl_decrypt($row['password'], "AES-128-ECB", "maillock", 0, ""); 
-}}
+}
+ else {
+		
+		echo "<br> <br>Wrong Answer" ; 
+	}
+
+}
 
 ?> 
 
