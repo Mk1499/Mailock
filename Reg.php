@@ -53,7 +53,12 @@ include("connect.php") ;
 if (isset ($_POST['submit']) and !empty($_POST['uname']) and !empty($_POST['pass2']) and !empty($_POST['email'])
 				and !empty($_POST['password']) and !empty($_POST['sq1']) and !empty($_POST['ans1']) and !empty($_POST['sq2'])
 				and !empty($_POST['ans2'])) {
+$pass1 = $_POST['password']  ;
+if (strlen($pass) <=  8) {
+	echo " <script> alert('Your password is so small and weak please choose other one '); </script>"	;
+exit() ; 
 
+} 
 $pass =  openssl_encrypt ($_POST['password'], "AES-128-ECB", "maillock", 0 ,"");
 $email = $_POST['email'];
 $uname = $_POST['uname'];
