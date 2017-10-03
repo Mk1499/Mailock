@@ -1,0 +1,229 @@
+
+body {
+	
+	position : absolute ; 
+	width : 100%;
+	top : -10px;
+	height: auto ;
+	background-image : url(mailock3.jpg);
+	
+	background-size : cover ;
+	
+	
+}
+
+form {
+  background: rgba(19, 35, 47, 0.9); 
+  padding: 20px;
+  max-width: 300px;
+  max-height : auto;
+  margin: 30px 50px auto;
+  border-radius: 40px;
+  box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
+
+}
+
+label {
+  position: absolute;
+   width: 60%;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 22px;
+
+}
+
+table{
+	   width: 70%;
+    border-collapse: collapse;
+	background: rgba(19, 35, 47, 0.9); 
+  padding: 70px;
+  max-width: 300px;
+  max-height : 800px;
+  margin: 40px 50px auto;
+  border-radius: 4px;
+  box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
+color: #1ab188;
+
+}
+table, td, th {
+    border:2px solid #1ab188;
+    padding: 5px;
+	  font-family: cursive ;
+ 
+}
+
+
+
+input{
+  font-size: 22px;
+  display: block;
+  width: 90%;
+  height:10%;
+  padding: 5px 10px;
+  background: none;
+  background-image: none;
+  border: 1px solid #a0b3b0;
+  color: #ffffff;
+  border-radius: 10px;
+  
+  
+}
+input:focus, textarea:focus {
+  outline: 0;
+  border-color: #1ab188;
+}
+
+textarea {
+	font-size: 12px;
+  display: block;
+	width:80%;
+  height: 70%;
+  padding: 5px 1px;
+  background: none;
+  background-image: none;
+   border-radius: 10px;
+  border: 2px solid #a0b3b0;
+ height : 100px;
+ margin : auto ;
+ color: #fff;
+}
+.chatview{
+	 width: auto; 
+font-size: 11px;
+color: white;
+
+	height :35%;
+	background : #01DFD7 ;
+	backface-visibility: visible;
+	padding : 10px;
+ 
+	box-shadow :  0 4px 10px 4px rgba(19, 35, 47, 0.3);
+	border-radius : 10px;
+	
+}
+}
+.write{
+	
+	margin : 10px;
+	height : auto;
+	width : 35px ;
+	
+	
+}
+
+button {
+  border: 150px;
+  
+  border-radius: 10px;
+  padding: 15px ;
+  
+  letter-spacing: .1em;
+  background: #1ab188;
+  color: #ffffff;
+  font-family: cursive ;
+ 
+}
+ .home{
+  border: 150px;
+  width: 200px;
+  border-radius: 10px;
+  padding: 15px ;
+  margin: 450px 9px auto ; 
+  letter-spacing: .1em;
+  background: #fff;
+  color: #1ab188;
+  font-family: cursive ;
+	
+}
+.hom{
+	
+	border: 150px;
+  width: 200px;
+  border-radius: 10px;
+  padding: 15px ;
+  margin: 0px 150px  auto ; 
+  letter-spacing: .1em;
+  background: #fff;
+  color: #1ab188;
+  font-family: cursive ;
+}
+
+p{	
+	color : #ffffff;
+}
+
+.chatbox{
+	
+	
+	width: 500px; 
+	min-width : 390px;
+	height :600px;
+	background : rgba(19, 35, 47, 0.9) ;
+	padding : 10px;
+	margin : 70px 30px 50px 400px; 
+	box-shadow :  0 4px 10px 4px rgba(19, 35, 47, 0.3);
+	border-radius : 10px;
+	position : fixed;
+}
+
+.chatlog{
+	
+	padding : 10px; 
+	width : 300px; 
+	height : 450px; 
+	} 
+	
+	.chat {
+		
+		display : flex ; 
+		flex-flow : row wrap ; 
+		align-items : flex-start; 
+        margin-bottom : 10px;
+	    width : 60px; 
+		height :60px; 
+		background : #1ab188; 
+		border-radius: 10px ;
+	}
+
+.chat  .user-photo {
+	
+	width : 6000px ; 
+	height : 60px;
+	background :#ccc ;
+	border-radius :50px;
+	
+}
+
+.chat , .chat-msg {
+	
+	width : 700px:
+	padding : 15px;
+	margin : 5px 10px 0 ;
+    background : #777; 	
+	border-raduis : 10px; 
+	color : #fff; 
+	font-size:15px;
+	
+	}
+.chat-msg  {
+	background : #1ab188 ; 
+	order : 1 ;
+	
+}
+
+.me , .chat-msg {
+	background : #1ddced ; 
+	order : 1 ;
+}
+.welcome {
+	
+	background: rgba(19, 35, 47, 0.9); 
+  padding: 5px;
+  width: auto ;
+  max-width: 300px;
+  max-height : 800px;
+  margin:  auto;
+  border-radius: 4px;
+  box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
+  color: #1ab188 ;
+  font-family: cursive ;
+}
